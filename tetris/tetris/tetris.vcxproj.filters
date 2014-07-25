@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ui">
+      <UniqueIdentifier>{9364c052-c4cb-42a9-a65d-77eb0a539282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame">
+      <UniqueIdentifier>{d7d0b07c-50a4-4212-9036-60583fe7adc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="kernel">
+      <UniqueIdentifier>{8a8b4a9c-56fc-45d0-833d-fdcd32e0cf89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tetris_dialog.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>frame</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>frame</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>frame</Filter>
+    </ClInclude>
+    <ClInclude Include="tetris.h">
+      <Filter>frame</Filter>
+    </ClInclude>
+    <ClInclude Include="tetris_frame.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="tetris_game.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="tetris_map.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="tetris_shape.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="tetris_define.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="tetris_cube.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tetris_dialog.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>frame</Filter>
+    </ClCompile>
+    <ClCompile Include="tetris.cpp">
+      <Filter>frame</Filter>
+    </ClCompile>
+    <ClCompile Include="tetris_frame.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="tetris_game.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="tetris_map.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="tetris_shape.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="tetris_cube.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tetris.rc">
+      <Filter>ui\资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tetris.rc2">
+      <Filter>ui\资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\tetris.ico">
+      <Filter>ui\资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
